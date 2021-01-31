@@ -14,5 +14,9 @@ I'm using a various resources for these exercices.  These include:
      
 As well as other resources.  I've found these to be some of the best resources to developing my Python, and will try credit these for their respective exercises.
 
+Useful sites:  
+               Visualise Code Execution:  http://pythontutor.com/
+               Built in Functions:  https://docs.python.org/3/library/functions.html
+               Literal String Interpolation - PEP498 - https://www.python.org/dev/peps/pep-0498/
 
 #100daysofcode #python
