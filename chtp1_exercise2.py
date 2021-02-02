@@ -10,11 +10,9 @@ def my_sum(*argsv):
     f = 0
 
     for x in params:
-        int(x)
         f += x
     
     print(f)
-
 
 def input_value(): 
     all = []
