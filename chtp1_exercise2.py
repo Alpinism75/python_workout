@@ -6,12 +6,11 @@ Thus, although you might invoke sum([1,2,3]), you’d instead invoke mysum(1,2,3
 """
 
 def my_sum(*argsv):
-    params = argsv[0]
     f = 0
-
-    for x in params:
+    for x in argsv[0]:
         f += x
-    
+        # g = len(argsv[0])
+
     print(f)
 
 def input_value(): 
@@ -30,3 +29,16 @@ def input_value():
 
 if __name__ == "__main__":
     input_value()
+
+
+"""
+Write a function that takes a list of numbers. It should return the average (i.e., arithmetic mean) of those numbers.
+
+Write a function that takes a list of words (strings). 
+It should return a tuple containing three integers, representing the length of the shortest word, 
+the length of the longest word, and the average word length.
+
+Write a function that takes a list of Python objects. 
+Sum the objects that either are integers or can be turned into integers, ignoring the others. 
+
+"""
